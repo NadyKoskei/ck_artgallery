@@ -17,7 +17,7 @@ Import Tailwind CSS
 ..go to the App.css and index.css and delete the default styles that have already been set up.. then put the import caode in the index.css file
 Add an @import to your CSS file that imports Tailwind CSS.
 
-
 05
 Start your build process
 Run your build process with npm run dev or whatever command is configured in your package.json file.
+
