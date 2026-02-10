@@ -1,4 +1,4 @@
-
+a) How i set up my project
 01
 Create your project
 Start by creating a new Vite project if you don’t have one set up already. The most common approach is to use Create Vite.
@@ -21,3 +21,19 @@ Add an @import to your CSS file that imports Tailwind CSS.
 Start your build process
 Run your build process with npm run dev or whatever command is configured in your package.json file.
 
+b) files i created
+1.Components filw for my components
+1.Pages file to store th diff pages
+
+c) React Router
+
+- Use 'npm install react-router-dom'
+- In main.jsx, 'import { BrowserRouter } from "react-router-dom";' and the wrap your App with the browser router tag  
+  <BrowserRouter>
+     <App />
+  </BrowserRouter>
+- Define routes in App.jsx 'import { Routes, Route, Link } from "react-router-dom";' and use
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+  </Routes>
